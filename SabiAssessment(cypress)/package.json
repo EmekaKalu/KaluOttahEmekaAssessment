@@ -1,0 +1,28 @@
+{
+  "name": "kaluottahemeka",
+  "version": "1.0.0",
+  "description": "My Sabi Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "cypress:open": "cypress open",
+    "Sabi" : "npm run test -- --headed --spec \"cypress/integration/sabi/*\""
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "frameworks"
+  ],
+  "author": "EmekaKalu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "wd": "^1.14.0"
+  }
+}

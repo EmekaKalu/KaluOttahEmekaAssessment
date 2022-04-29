@@ -1,0 +1,7 @@
+{
+    "env" :
+    {
+        "sabiUrl" : "http://staging.spaceso2o.com/"
+    },
+    "defaultCommandTimeout" : 5000
+}
